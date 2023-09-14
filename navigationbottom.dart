@@ -22,7 +22,6 @@ class _BottomNBArState extends State<BottomNBAr> {
     //Listvi(),
     Center(child: Text("home")),
     Center(child: Text("search")),
-
     Center(child: Text("profile")),
   ];
 

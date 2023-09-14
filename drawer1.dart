@@ -36,6 +36,7 @@ List nm=[
           children: [
             ListTile(
               title:Text('home'),
+             trailing: Icon(Icons.home),
              selected: selectedIndex==0,
 
             onTap: () {
@@ -53,6 +54,7 @@ List nm=[
               },),
             ListTile(
               title:Text('setting'),
+              trailing: Icon(Icons.settings),
               selected: selectedIndex==2,
 
               onTap: () {onitemtapped(2);
@@ -61,6 +63,7 @@ List nm=[
               },),
             ListTile(
               title:Text('feedback'),
+              trailing: Icon(Icons.account_box_outlined),
               selected: selectedIndex==3,
 
               onTap: () {onitemtapped(3);
@@ -73,3 +76,9 @@ List nm=[
     );
   }
 }
+
+
+
+
+
+

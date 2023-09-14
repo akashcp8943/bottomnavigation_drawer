@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter6/Registration%20with%20sharedpre.dart';
 import 'package:flutter6/drawer1.dart';
 import 'package:flutter6/flex.dart';
+import 'package:flutter6/sharedpre.dart';
 
 import 'navigationbottom.dart';
 
@@ -35,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PageDrawer(),
+      home: Firstui(),
     );
   }
 }
